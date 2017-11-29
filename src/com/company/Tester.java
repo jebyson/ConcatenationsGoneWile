@@ -18,12 +18,12 @@ public class Tester {
 
     private static String cat(int start, int end)
     {
-        sPos = start;
-        lPos = end;
+        //sPos = start;
+        //lPos = end;
 
         StringBuffer sb = new StringBuffer("");
 
-        for(int j = sPos; j <= lPos; j++)
+        for(int j = start; j <= end; j++)
         {
             sb.append(j);
         }
